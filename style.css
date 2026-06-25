@@ -1,0 +1,45 @@
+body{
+font-family:Segoe UI,Arial,sans-serif;
+background:#eef3f8;
+margin:0;
+padding:30px;
+}
+.fiche{
+max-width:850px;
+margin:auto;
+background:white;
+padding:30px;
+border-radius:12px;
+box-shadow:0 8px 20px rgba(0,0,0,.15);
+}
+header{
+background:#005A9C;
+color:white;
+margin:-30px -30px 25px -30px;
+padding:25px 30px;
+}
+table{
+width:100%;
+border-collapse:collapse;
+}
+th,td{
+padding:12px;
+border-bottom:1px solid #ddd;
+text-align:left;
+}
+th{color:#005A9C;width:220px;}
+.actions{text-align:center;margin-top:25px;}
+button{
+padding:12px 25px;
+font-size:17px;
+background:#005A9C;
+color:white;
+border:none;
+border-radius:8px;
+cursor:pointer;
+}
+@media print{
+button,.note{display:none;}
+body{background:white;padding:0;}
+.fiche{box-shadow:none;}
+}
